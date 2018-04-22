@@ -1,8 +1,7 @@
-# generator-express-lambda
+# generator-express-lambda [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+
 A scaffolding tool to build an Express app quickly, for serverless deployment on AWS Lambda, using Claudia.js.
 
-
-# generator-express-lambda [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > Automatically scaffold a project with Express &amp; Claudia.js, ready to deploy to AWS Lambda
 
 ## Installation
@@ -10,11 +9,10 @@ A scaffolding tool to build an Express app quickly, for serverless deployment on
 First, install [Yeoman](http://yeoman.io) and generator-express-lambda-generator using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
-npm install -g yo
-npm install -g generator-express-lambda
+npm install -g yo generator-express-lambda
 ```
 
-Then generate your new project:
+Then generate your new project (from inside your new project directory):
 
 ```bash
 yo express-lambda
