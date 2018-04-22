@@ -102,15 +102,6 @@ npm run update
 ```
 
 
-## Promoting your Project from Development to Production
-
-By default, your updates will be deployed to testing, to promote your project for release, run:
-
-```bash
-npm run release
-```
-
-
 ## Where are my logs?
 
 Logs from Lambda functions will appear in your AWS CloudWatch console. 
