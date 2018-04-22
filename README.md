@@ -5,6 +5,9 @@ A scaffolding tool to build an Express app quickly, for Serverless deployment to
 It uses Yeoman to automatically generate a project with **Express** & **Claudia.js**, ready to deploy to **AWS Lambda**.
 
 
+![Generator Output](https://github.com/kidGodzilla/generator-express-lambda/raw/master/generator.jpg "Generator Output")
+
+
 ## Dependencies
 
 First, install [Yeoman](http://yeoman.io) and generator-express-lambda using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).

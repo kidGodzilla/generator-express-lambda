@@ -10,7 +10,6 @@
   "dependencies": {
     "aws-serverless-express": "^3.2.0",
     "body-parser": "^1.18.2",
-    "claudia": "^4.0.0",
     "cors": "^2.8.4",
     "express": "^4.16.3",
     "is-lambda": "^1.0.1"
