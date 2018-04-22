@@ -24,23 +24,6 @@ npm install -g yo claudia generator-express-lambda
 ```
 
 
-## Creating a New Project
-
-Make a new directory for your project, and navigate into it.
-
-```bash
-mkdir <project-name>
-cd <project-name>
-```
-
-Then generate your new project (from inside your new project directory):
-
-```bash
-yo express-lambda
-```
-
-This will create a ready-to-deploy Express application you can start your project from. It includes minimal dependencies to run your project locally, and deploy using Claudia.js.
-
 ## AWS Free Tier
 
 The AWS Free Tier includes a million invocations for your Lambda apps per month. 
@@ -80,6 +63,24 @@ awscli configure --profile claudia
 ```
 
 This will create keys under the profile **[claudia]**, and leave the rest of your keys in tact.
+
+
+## Creating a New Project
+
+Make a new directory for your project, and navigate into it.
+
+```bash
+mkdir <project-name>
+cd <project-name>
+```
+
+Then generate your new project (from inside your new project directory):
+
+```bash
+yo express-lambda
+```
+
+This will create a ready-to-deploy Express application you can start your project from. It includes minimal dependencies to run your project locally, and deploy using Claudia.js.
 
 
 ## Deploying your Project
