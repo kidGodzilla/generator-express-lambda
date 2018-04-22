@@ -1,6 +1,6 @@
 {
   "name": "generator-express-lambda",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Automatically scaffold a project with Express & Claudia.js, ready to deploy to AWS Lambda",
   "homepage": "https://github.com/kidGodzilla/generator-express-lambda#readme",
   "author": "James Futhey <futhey@gmail.com>",
@@ -9,7 +9,7 @@
   ],
   "main": "generators/index.js",
   "keywords": [
-    "yeoman-generator"
+    "express", "lambda", "AWS", "Claudia", "claudia.js", "generator", "yeoman-generator"
   ],
   "devDependencies": {
     "yeoman-test": "^1.7.0",
