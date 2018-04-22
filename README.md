@@ -24,9 +24,9 @@ npm install -g yo claudia generator-express-lambda
 ```
 
 
-## AWS Free Tier
+## About the AWS Free Tier & Pricing
 
-The AWS Free Tier includes a million invocations for your Lambda apps per month. 
+The AWS Free Tier includes a million invocations for your Lambda apps per month. This should get you pretty far for hobby projects and development.
 You can find out more here: https://aws.amazon.com/free/
 
 
@@ -98,6 +98,19 @@ After deployment, to update your project, run:
 ```bash
 npm run update
 ```
+
+## Where are my logs?
+
+Logs from Lambda functions will appear in your AWS CloudWatch console. 
+You can find your logs here: https://console.aws.amazon.com/cloudwatch/home?region=us-east-1
+
+To make things easier, you can run the following command:
+
+```bash
+npm run logs
+```
+
+You may have to tweak the value in `package.json` if the generated command filters for the wrong name.
 
 
 # About Yeoman Generator

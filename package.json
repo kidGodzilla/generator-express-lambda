@@ -1,6 +1,6 @@
 {
   "name": "generator-express-lambda",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Automatically scaffold a project with Express & Claudia.js, ready to deploy to AWS Lambda",
   "homepage": "https://github.com/kidGodzilla/generator-express-lambda-generator#readme",
   "author": "James Futhey <futhey@gmail.com>",
