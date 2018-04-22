@@ -27,7 +27,7 @@ app.use(require('cors')());
 
 
 /**
- * Hello World (Get Requests)
+ * Hello World (Yeoman-themed GET Request)
  */
 app.get('/', function (req, res) {
   res.send('Hello, Governer!')

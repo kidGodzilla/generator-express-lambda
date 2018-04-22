@@ -5,7 +5,7 @@ const yosay = require('yosay');
 module.exports = class extends Generator {
   prompting() {
     this.log(
-      yosay(`Lambda Express App Generator.`)
+        yosay(`Lambda Express App Generator.`)
     );
 
     return this.prompt([
@@ -23,20 +23,24 @@ module.exports = class extends Generator {
 
   writing() {
     this.fs.copyTpl(
-      this.templatePath('_package.json'),
-      this.destinationPath('package.json'), {
-        name: this.props.name
-      }
+        this.templatePath('_package.json'),
+        this.destinationPath('package.json'), {
+          name: this.props.name
+        }
     );
 
     this.fs.copy(
-      this.templatePath('_index.js'),
-      this.destinationPath('index.js')
+        this.templatePath('_index.js'),
+        this.destinationPath('index.js')
     );
 
     this.fs.copy(
-      this.templatePath('_index.html'),
-      this.destinationPath('static/index.html')
+        this.templatePath('gitignore'),
+        this.destinationPath('.gitignore')
+    );
+    this.fs.copy(
+        this.templatePath('_index.html'),
+        this.destinationPath('static/index.html')
     );
   }
 
@@ -49,7 +53,7 @@ module.exports = class extends Generator {
   end() {
     this.spawnCommand('npm', ['run', 'generate']).on('close', (code) => {
       this.log(
-        yosay(`Successfully Generated your new Lambda/Express App.\n\nTo run, type \`npm start\`.\n\nTo deploy, type \`npm run deploy\`.\n\nTo Update after Deployment, type \`npm run update\`.`)
+          yosay(`Successfully Generated your new Lambda/Express App.\n\nTo run, type \`npm start\`.\n\nTo deploy, type \`npm run deploy\`.\n\nTo Update after Deployment, type \`npm run update\`.`)
       );
     });
 
