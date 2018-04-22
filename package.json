@@ -1,8 +1,8 @@
 {
   "name": "generator-express-lambda",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Automatically scaffold a project with Express & Claudia.js, ready to deploy to AWS Lambda",
-  "homepage": "https://github.com/kidGodzilla/generator-express-lambda-generator#readme",
+  "homepage": "https://github.com/kidGodzilla/generator-express-lambda#readme",
   "author": "James Futhey <futhey@gmail.com>",
   "files": [
     "generators"
@@ -75,10 +75,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kidGodzilla/generator-express-lambda-generator.git"
+    "url": "git+https://github.com/kidGodzilla/generator-express-lambda.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kidGodzilla/generator-express-lambda-generator/issues"
+    "url": "https://github.com/kidGodzilla/generator-express-lambda/issues"
   }
 }
