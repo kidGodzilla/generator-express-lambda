@@ -6,7 +6,7 @@ Automatically scaffold a project with Express & Claudia.js, ready to deploy to A
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-express-lambda-generator using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-express-lambda using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo generator-express-lambda
@@ -101,9 +101,9 @@ npm run update
 Apache-2.0 © [James Futhey]()
 
 
-[npm-image]: https://badge.fury.io/js/generator-express-lambda-generator.svg
-[npm-url]: https://npmjs.org/package/generator-express-lambda-generator
-[travis-image]: https://travis-ci.org/kidGodzilla/generator-express-lambda-generator.svg?branch=master
-[travis-url]: https://travis-ci.org/kidGodzilla/generator-express-lambda-generator
-[daviddm-image]: https://david-dm.org/kidGodzilla/generator-express-lambda-generator.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/kidGodzilla/generator-express-lambda-generator
+[npm-image]: https://badge.fury.io/js/generator-express-lambda.svg
+[npm-url]: https://npmjs.org/package/generator-express-lambda
+[travis-image]: https://travis-ci.org/kidGodzilla/generator-express-lambda.svg?branch=master
+[travis-url]: https://travis-ci.org/kidGodzilla/generator-express-lambda
+[daviddm-image]: https://david-dm.org/kidGodzilla/generator-express-lambda.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/kidGodzilla/generator-express-lambda
