@@ -1,0 +1,25 @@
+{
+  "name": "<%= name %>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "generate": "claudia generate-serverless-express-proxy --express-module index",
+    "deploy": "claudia create --handler lambda.handler --deploy-proxy-api --region us-east-1",
+    "update": "claudia update"
+  },
+  "dependencies": {
+    "aws-serverless-express": "^3.2.0",
+    "body-parser": "^1.18.2",
+    "claudia": "^4.0.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "is-lambda": "^1.0.1"
+  },
+  "devDependencies": {
+    "claudia": "^4.0.0"
+  },
+  "version": "0.1.0",
+  "license": "ISC",
+  "author": "",
+  "description": ""
+}
