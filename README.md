@@ -98,7 +98,7 @@ npm run update
 
 ## License
 
-Apache-2.0 © [James Futhey]()
+MIT © [James Futhey]()
 
 
 [npm-image]: https://badge.fury.io/js/generator-express-lambda.svg
