@@ -40,7 +40,8 @@ This will create a ready-to-deploy Express application you can start your projec
 
 ## AWS Free Tier
 
-The AWS Free Tier includes a million invocations for your Lambda apps per month. You can find out more here: https://aws.amazon.com/free/
+The AWS Free Tier includes a million invocations for your Lambda apps per month. 
+You can find out more here: https://aws.amazon.com/free/
 
 
 ## Getting your AWS Keys
@@ -106,7 +107,7 @@ npm run update
 
 ## License
 
-MIT © [James Futhey]()
+MIT
 
 
 [npm-image]: https://badge.fury.io/js/generator-express-lambda.svg
