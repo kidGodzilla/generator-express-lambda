@@ -2,7 +2,7 @@
 
 A scaffolding tool to build an Express app quickly, for Serverless deployment to AWS Lambda, using Claudia.js.
 
-It uses Yeoman to automatically scaffold a project with **Express** & **Claudia.js**, ready to deploy to **AWS Lambda**.
+It uses Yeoman to automatically generate a project with **Express** & **Claudia.js**, ready to deploy to **AWS Lambda**.
 
 
 ## Dependencies
