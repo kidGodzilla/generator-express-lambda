@@ -4,8 +4,9 @@
   "scripts": {
     "start": "node index.js",
     "generate": "claudia generate-serverless-express-proxy --express-module index",
-    "deploy": "claudia create --handler lambda.handler --deploy-proxy-api --region us-east-1",
-    "update": "claudia update",
+    "deploy": "claudia create --version development --handler lambda.handler --deploy-proxy-api --region us-east-1",
+    "update": "claudia update --version testing",
+    "release": "claudia set-version --version production",
     "logs": "aws logs filter-log-events --log-group-name /aws/lambda/<%= name %>"
   },
   "dependencies": {

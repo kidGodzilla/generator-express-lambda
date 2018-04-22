@@ -29,6 +29,8 @@ npm install -g yo claudia generator-express-lambda
 The AWS Free Tier includes a million invocations for your Lambda apps per month. This should get you pretty far for hobby projects and development.
 You can find out more here: https://aws.amazon.com/free/
 
+You can estimate your total cost of using AWS Lambda here: https://s3.amazonaws.com/lambda-tools/pricing-calculator.html
+
 
 ## Getting your AWS Keys
 
@@ -98,6 +100,16 @@ After deployment, to update your project, run:
 ```bash
 npm run update
 ```
+
+
+## Promoting your Project from Development to Production
+
+By default, your updates will be deployed to testing, to promote your project for release, run:
+
+```bash
+npm run release
+```
+
 
 ## Where are my logs?
 
