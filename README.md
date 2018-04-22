@@ -55,13 +55,13 @@ Your secret key will no longer be available through the AWS Management Console; 
 Run the following from your terminal to create your default AWS configuration, if one does not exist:
 
 ```bash
-awscli configure
+aws configure
 ```
 
 Alternatively, if you already have keys setup and wish to create keys specifically for **claudia.js**, run:
 
 ```bash
-awscli configure --profile claudia
+aws configure --profile claudia
 ```
 
 This will create keys under the profile **[claudia]**, and leave the rest of your keys in tact.
