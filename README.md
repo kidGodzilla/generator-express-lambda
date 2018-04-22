@@ -47,15 +47,15 @@ The AWS Free Tier includes a million invocations for your Lambda apps per month.
 
 ### To get your access key ID and secret access key
 
-1. Open the IAM console.
-2. From the navigation menu, click Users.
+1. Open the [IAM console](https://console.aws.amazon.com/iam/home).
+2. From the navigation menu, click **Users**.
 3. Select your IAM user name.
-4. Click User Actions, and then click Manage Access Keys.
-5. Click Create Access Key.
+4. Click **User Actions**, and then click **Manage Access Keys**.
+5. Click **Create Access Key**.
   * Your keys will look something like this:
-    * Access key ID example: AKIAIOSFODNN7EXAMPLE
-    * Secret access key example: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
-    * Click Download Credentials, and store the keys in a secure location.
+    * Access key ID example: `AKIAIOSFODNN7EXAMPLE`
+    * Secret access key example: `wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY`
+    * Click **Download Credentials**, and store the keys in a secure location.
 
 ### Important
 
