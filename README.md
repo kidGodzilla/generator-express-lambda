@@ -2,14 +2,22 @@
 
 A scaffolding tool to build an Express app quickly, for Serverless deployment to AWS Lambda, using Claudia.js.
 
-Automatically scaffold a project with Express & Claudia.js, ready to deploy to AWS Lambda.
+It uses Yeoman to automatically scaffold a project with **Express** & **Claudia.js**, ready to deploy to **AWS Lambda**.
 
-## Installation
+
+## Dependencies
 
 First, install [Yeoman](http://yeoman.io) and generator-express-lambda using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
+You'll also need `awscli`. This can be installed via brew: `brew install awscli`
+
+
+## Installation
+
+To install, you'll need to globally install this package along with yo and claudia, if you don't already have it.
+
 ```bash
-npm install -g yo generator-express-lambda
+npm install -g yo claudia generator-express-lambda
 ```
 
 
