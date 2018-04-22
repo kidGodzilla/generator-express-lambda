@@ -105,7 +105,7 @@ npm run update
 ## Where are my logs?
 
 Logs from Lambda functions will appear in your AWS CloudWatch console. 
-You can find your logs here: https://console.aws.amazon.com/cloudwatch/home?region=us-east-1
+You can find your logs here: https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#logs:
 
 To make things easier, you can run the following command:
 
