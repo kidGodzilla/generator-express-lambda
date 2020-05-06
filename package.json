@@ -12,7 +12,7 @@
     "express", "lambda", "AWS", "Claudia", "claudia.js", "generator", "yeoman-generator"
   ],
   "devDependencies": {
-    "yeoman-test": "^1.7.0",
+    "yeoman-test": "^2.6.0",
     "yeoman-assert": "^3.1.0",
     "nsp": "^2.8.0",
     "eslint": "^4.19.1",
